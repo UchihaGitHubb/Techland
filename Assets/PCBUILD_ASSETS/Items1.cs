@@ -6,15 +6,15 @@ using UnityEngine.UI;
 public class Items1 : MonoBehaviour
 {
     [SerializeField]
-    private Transform itemR;
-    private Vector2 initialPosition;
+    private Transform item1;
+    private Vector2 initialPosition1;
     private float deltaX, deltaY;
     public static bool locked;
     // Use this for initializationl
 
     void Start() 
     {
-        initialPosition = transform.position; 
+        initialPosition1 = transform.position; 
     }
     private void Update() {
         if (Input.touchCount > 0 && !locked) {
@@ -35,12 +35,12 @@ public class Items1 : MonoBehaviour
                     break;
 
                 case TouchPhase.Ended:
-                    if (Mathf.Abs(transform.position.x - itemR.position.x)<= 0.5f && Mathf.Abs(transform.position.y - itemR.position.y)<= 0.5f){
-                        transform.position = new Vector2(itemR.position.x, itemR.position.y);
+                    if (Mathf.Abs(transform.position.x - item1.position.x)<= 0.5f && Mathf.Abs(transform.position.y - item1.position.y)<= 0.5f){
+                        transform.position = new Vector2(item1.position.x, item1.position.y);
                         locked = true;
                     }
                     else {
-                        transform.position = new Vector2(initialPosition.x, initialPosition.y); 
+                        transform.position = new Vector2(initialPosition1.x, initialPosition1.y); 
                     }
                     break;
 
