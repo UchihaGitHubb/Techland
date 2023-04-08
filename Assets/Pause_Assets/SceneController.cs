@@ -1,20 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SceneController : MonoBehaviour
 {
     public GameObject gameObject;
-    
-    
+
     public void Volver()
     {
         gameObject.SetActive(false);
     }
     public void IrMenu()
     {
-        //SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("S_Menu");
         Debug.Log("VA AL MENU");
+    }
+    public void IrRompecabeza() 
+    {
+        Debug.Log("VA AL ROMPECABEZA");
+        SceneManager.LoadScene("PC_BUILD");
+        //menuScene.SetActive(false);
     }
     public void Cerrar()
     {
