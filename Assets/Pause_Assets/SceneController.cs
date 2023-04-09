@@ -23,6 +23,12 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("PC_BUILD");
         //menuScene.SetActive(false);
     }
+    public void IrAdivinaQ()
+    {
+        Debug.Log("VA AL adivina q");
+        SceneManager.LoadScene("Guess_who");
+        //menuScene.SetActive(false);
+    }
     public void Cerrar()
     {
         //Cerrar
