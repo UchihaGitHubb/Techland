@@ -14,6 +14,7 @@ public class Items1 : MonoBehaviour
 
     void Start() 
     {
+        locked = false;
         initialPosition1 = transform.position; 
     }
     private void Update() {

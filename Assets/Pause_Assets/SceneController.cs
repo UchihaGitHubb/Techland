@@ -39,4 +39,11 @@ public class SceneController : MonoBehaviour
     {
         gameObject.SetActive(true);
     }
+
+    public void ResetScene()
+    {
+        Destroy(this);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        print("RESET");
+    }
 }
