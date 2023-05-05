@@ -10,12 +10,18 @@ public class Items : MonoBehaviour
     private Vector2 initialPosition;
     private float deltaX, deltaY;
     public static bool locked;
+
+    public Image myPanel;
+    public Color green;
+    public Color red;
     // Use this for initializationl
 
     void Start() 
     {
         locked = false;
-        initialPosition = transform.position; 
+        initialPosition = transform.position;
+        green.a = 1;
+        red.a = 1;
     }
     private void Update() {
         if (Input.touchCount > 0 && !locked) {
@@ -39,6 +45,10 @@ public class Items : MonoBehaviour
                     if (Mathf.Abs(transform.position.x - item.position.x)<= 0.5f && Mathf.Abs(transform.position.y - item.position.y)<= 0.5f){
                         transform.position = new Vector2(item.position.x, item.position.y);
                         locked = true;
+                        Debug.Log("GREEN");
+                        myPanel.color = green;
+                        
+
                     }
                     else {
                         transform.position = new Vector2(initialPosition.x, initialPosition.y); 
