@@ -1356,7 +1356,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Para completarlo debes arrastrar los elementos de la derecha hacia los
+  m_Text: "Para completarlo debes arrastrar los elementos de la izquierda hacia los
     espacios grises de la derecha como se muestra a continuaci\xF3n"
 --- !u!222 &1182303148
 CanvasRenderer:
@@ -2282,8 +2282,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2047383313}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.05, y: 0.03, z: 101.1}
-  m_LocalScale: {x: 1.8112372, y: 1.9359, z: 1}
+  m_LocalPosition: {x: 0.1277, y: -0.0551, z: 101.1}
+  m_LocalScale: {x: 2.1000714, y: 2.2446141, z: 1.1594679}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2062534010}
