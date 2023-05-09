@@ -10,11 +10,7 @@ public class Puntaje : MonoBehaviour
     public float timer = 0;
     public TextMeshProUGUI textMesh;
    
-    private void Start()
-    {
-        textMesh = GetComponent<TextMeshProUGUI>();
-         
-    }
+
     private void Update()
     {
         timer -= Time.deltaTime;
