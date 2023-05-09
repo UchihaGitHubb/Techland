@@ -46,11 +46,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "\xBFQu\xE9 es la pantalla del computador?"
   options:
-  - text: "El bot\xF3n para encender el computador"
+  - cantidadPuntos: 100
+    puntaje: {fileID: 0}
+    text: "El bot\xF3n para encender el computador"
     correct: 0
-  - text: "La parte del computador que procesa la informaci\xF3n visual"
+  - cantidadPuntos: 100
+    puntaje: {fileID: 0}
+    text: "La parte del computador que procesa la informaci\xF3n visual"
     correct: 0
-  - text: "La superficie donde se dibujan las im\xE1genes"
+  - cantidadPuntos: 100
+    puntaje: {fileID: 0}
+    text: "La superficie donde se dibujan las im\xE1genes"
     correct: 1
-  - text: El lugar donde se conectan los auriculares
+  - cantidadPuntos: 100
+    puntaje: {fileID: 0}
+    text: El lugar donde se conectan los auriculares
     correct: 0

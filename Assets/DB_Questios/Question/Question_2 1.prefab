@@ -46,11 +46,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "\xBFQu\xE9 es el teclado del computador?"
   options:
-  - text: "La parte del computador que se encarga de hacer sonar la m\xFAsica"
+  - cantidadPuntos: 100
+    puntaje: {fileID: 0}
+    text: "La parte del computador que se encarga de hacer sonar la m\xFAsica"
     correct: 0
-  - text: "El dispositivo para hacer llamadas telef\xF3nicas"
+  - cantidadPuntos: 100
+    puntaje: {fileID: 0}
+    text: "El dispositivo para hacer llamadas telef\xF3nicas"
     correct: 0
-  - text: La herramienta para ingresar texto y comandos al computador
+  - cantidadPuntos: 100
+    puntaje: {fileID: 0}
+    text: La herramienta para ingresar texto y comandos al computador
     correct: 1
-  - text: El lugar donde se conecta el mouse
+  - cantidadPuntos: 100
+    puntaje: {fileID: 0}
+    text: El lugar donde se conecta el mouse
     correct: 0
