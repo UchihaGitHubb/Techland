@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 117082258}
   - component: {fileID: 117082257}
   - component: {fileID: 117082256}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ButtonOption_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -274,7 +274,7 @@ GameObject:
   - component: {fileID: 349243189}
   - component: {fileID: 349243191}
   - component: {fileID: 349243190}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -353,7 +353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 379044628}
   - component: {fileID: 379044629}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -556,7 +556,7 @@ GameObject:
   - component: {fileID: 448529734}
   - component: {fileID: 448529733}
   - component: {fileID: 448529732}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ButtonOption_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -688,7 +688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 466723466}
   - component: {fileID: 466723467}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: QuizUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -866,7 +866,7 @@ GameObject:
   - component: {fileID: 557185732}
   - component: {fileID: 557185734}
   - component: {fileID: 557185733}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -946,7 +946,7 @@ GameObject:
   - component: {fileID: 1086938103}
   - component: {fileID: 1086938105}
   - component: {fileID: 1086938104}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Texto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1227,7 +1227,7 @@ GameObject:
   - component: {fileID: 1233185317}
   - component: {fileID: 1233185316}
   - component: {fileID: 1233185315}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ButtonOption_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1866,7 +1866,7 @@ GameObject:
   - component: {fileID: 1464963669}
   - component: {fileID: 1464963671}
   - component: {fileID: 1464963670}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1946,7 +1946,7 @@ GameObject:
   - component: {fileID: 1607924830}
   - component: {fileID: 1607924832}
   - component: {fileID: 1607924831}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2096,7 +2096,7 @@ GameObject:
   - component: {fileID: 1704399744}
   - component: {fileID: 1704399743}
   - component: {fileID: 1704399742}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ButtonOption_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

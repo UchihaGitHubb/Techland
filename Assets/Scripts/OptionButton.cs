@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 [RequireComponent(typeof(Button))]
@@ -24,7 +25,6 @@ public class OptionButton : MonoBehaviour
         Color_Original = my_image.color;
 
     }
-
     public void Construtor(Options option, Action<OptionButton> callback)
     {
         my_text.text = option.text;
@@ -32,14 +32,14 @@ public class OptionButton : MonoBehaviour
         my_button.enabled = true;
         my_image.color = Color_Original;
         Option = option;
-        my_button.onClick.AddListener(delegate { callback(this); });
+        //my_button.onClick.AddListener(delegate { callback(malditasea()); });
     }
     public void SetColor(Color c)
     {
         my_button.enabled = false;
         my_image.color = c;
     }
-    
+
 }
     
     

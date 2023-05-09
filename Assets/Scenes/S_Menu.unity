@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 74176497}
   - component: {fileID: 74176496}
   - component: {fileID: 74176495}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: BttnOptions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 162809231}
   - component: {fileID: 162809230}
   - component: {fileID: 162809229}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Viewport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ GameObject:
   - component: {fileID: 183184856}
   - component: {fileID: 183184855}
   - component: {fileID: 183184854}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: A_Ruleta (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -651,7 +651,7 @@ GameObject:
   - component: {fileID: 605548038}
   - component: {fileID: 605548037}
   - component: {fileID: 605548036}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: A_Ruleta (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -944,7 +944,7 @@ GameObject:
   - component: {fileID: 866725779}
   - component: {fileID: 866725778}
   - component: {fileID: 866725777}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1052,7 +1052,7 @@ GameObject:
   - component: {fileID: 883243350}
   - component: {fileID: 883243349}
   - component: {fileID: 883243348}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: A_Armapc (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1354,7 +1354,7 @@ GameObject:
   - component: {fileID: 1558650737}
   - component: {fileID: 1558650739}
   - component: {fileID: 1558650738}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1439,7 +1439,7 @@ GameObject:
   - component: {fileID: 1639038663}
   - component: {fileID: 1639038662}
   - component: {fileID: 1639038661}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: A_Armapc (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1583,7 +1583,7 @@ GameObject:
   - component: {fileID: 1902569422}
   - component: {fileID: 1902569421}
   - component: {fileID: 1902569420}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: A_Ruleta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1716,7 +1716,7 @@ GameObject:
   - component: {fileID: 1978132330}
   - component: {fileID: 1978132329}
   - component: {fileID: 1978132328}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: A_Armapc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
