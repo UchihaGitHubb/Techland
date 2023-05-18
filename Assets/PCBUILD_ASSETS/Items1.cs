@@ -13,6 +13,8 @@ public class Items1 : MonoBehaviour
     public Image myPanel;
     public Color green;
     public Color red;
+    public Text Texto;
+    public int n = 0;
     // Use this for initializationl
 
     void Start() 
@@ -46,6 +48,16 @@ public class Items1 : MonoBehaviour
                         locked = true;
                         Debug.Log("GREEN");
                         myPanel.color = green;
+                        if (Texto.text == "Puntaje: 0")
+                        {
+                            n = n + 1;
+                            Texto.text = "Puntaje: " + n;
+                        }
+                        else
+                        {
+                            n = n + 2;
+                            Texto.text = "Puntaje: " + n;
+                        }
                     }
                     else {
                         transform.position = new Vector2(initialPosition1.x, initialPosition1.y); 

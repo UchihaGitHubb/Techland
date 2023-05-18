@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HELP : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class HELP : MonoBehaviour
     public GameObject canvas;
     public GameObject este;
     public GameObject butonAtras;
+    public Text Texto;
+    public GameObject feedBack;
+    public int n = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +23,12 @@ public class HELP : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Texto.text == "Puntaje: 2")
+        {
+            Invoke("Puntaje", 1);
+                      
+           
+        }
     }
 
     public void Visible()
@@ -65,5 +74,11 @@ public class HELP : MonoBehaviour
         }
         
 
+    }
+
+    public void Puntaje()
+    {
+        feedBack.SetActive(true);
+        canvas.SetActive(false);
     }
 }

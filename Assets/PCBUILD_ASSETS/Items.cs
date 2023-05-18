@@ -10,10 +10,11 @@ public class Items : MonoBehaviour
     private Vector2 initialPosition;
     private float deltaX, deltaY;
     public static bool locked;
-
+    public Text Texto;
     public Image myPanel;
     public Color green;
     public Color red;
+    public int n = 0;
     // Use this for initializationl
 
     void Start() 
@@ -22,6 +23,7 @@ public class Items : MonoBehaviour
         initialPosition = transform.position;
         green.a = 1;
         red.a = 1;
+        
     }
     private void Update() {
         if (Input.touchCount > 0 && !locked) {
@@ -42,11 +44,21 @@ public class Items : MonoBehaviour
                     break;
 
                 case TouchPhase.Ended:
-                    if (Mathf.Abs(transform.position.x - item.position.x)<= 0.5f && Mathf.Abs(transform.position.y - item.position.y)<= 0.5f){
+                    if (Mathf.Abs(transform.position.x - item.position.x) <= 0.5f && Mathf.Abs(transform.position.y - item.position.y) <= 0.5f) {
                         transform.position = new Vector2(item.position.x, item.position.y);
                         locked = true;
                         Debug.Log("GREEN");
                         myPanel.color = green;
+                        if(Texto.text == "Puntaje: 0")
+                        {
+                            n = n + 1;
+                            Texto.text = "Puntaje: " + n;
+                        }
+                        else {
+                            n = n + 2;
+                            Texto.text = "Puntaje: " + n;
+                        }
+                        
                         
 
                     }
