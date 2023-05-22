@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 59190926}
   - component: {fileID: 59190925}
+  - component: {fileID: 59190927}
   m_Layer: 0
   m_Name: QuizManager
   m_TagString: Untagged
@@ -207,6 +208,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &59190927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59190924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0211aa4c72eee49a1fb721ec758799, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObject: {fileID: 316906126}
 --- !u!1 &117082254
 GameObject:
   m_ObjectHideFlags: 0
@@ -810,8 +824,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a84f13aab9fb0141bd3b4cf166643b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
-  textMesh: {fileID: 0}
 --- !u!1 &557185731
 GameObject:
   m_ObjectHideFlags: 0
@@ -1016,6 +1028,14 @@ PrefabInstance:
     - target: {fileID: 5621965698077806045, guid: 47195e7f8fc7bb44d92bd50e6aacc803, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5621965698355565199, guid: 47195e7f8fc7bb44d92bd50e6aacc803, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 59190927}
+    - target: {fileID: 5621965698355565199, guid: 47195e7f8fc7bb44d92bd50e6aacc803, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IrMenu
       objectReference: {fileID: 0}
     - target: {fileID: 5621965698705573008, guid: 47195e7f8fc7bb44d92bd50e6aacc803, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1648,22 +1668,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ad0e4e974955cd43a350ef97985c3fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  my_correctSound: {fileID: 8300000, guid: 3b2084ace81c7fb48989113cd20b3a18, type: 3}
-  my_incorrectSound: {fileID: 8300000, guid: 209dfdbff5aa048459547be6f87a18f1, type: 3}
-  my_correctColor:
-    r: 0.15058792
-    g: 1
-    b: 0
-    a: 1
-  my_incorrectColor:
-    r: 1
-    g: 0
-    b: 0.03114605
-    a: 1
-  my_waitTime: 1
-  my_quizDB: {fileID: 0}
-  my_quizUI: {fileID: 0}
-  my_audioSource: {fileID: 0}
 --- !u!82 &1420810872
 AudioSource:
   m_ObjectHideFlags: 0
